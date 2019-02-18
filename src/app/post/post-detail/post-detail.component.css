@@ -1,0 +1,13 @@
+.post-body{
+    text-align: left;
+}
+
+.post-block{
+    margin: 0 auto;
+    background-color: white;
+    margin-bottom: 50px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px grey;
+    width: 80%;
+    text-align: left;
+}

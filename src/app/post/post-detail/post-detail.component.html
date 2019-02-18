@@ -1,0 +1,6 @@
+<div class="post-block">
+  <h3>{{post?.title}}</h3>
+  <h4>{{post?.subtitle}}, {{post?.publication_date | date: 'longDate'}}</h4>
+  <div class="post-body" [innerHTML]="post?.comment">  
+  </div>
+</div>

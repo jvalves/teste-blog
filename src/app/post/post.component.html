@@ -1,0 +1,10 @@
+<div class="container">
+
+  <div class="post-block" *ngFor="let post of posts">
+    <h3>{{post?.title}}</h3>
+    <h4>{{post?.subtitle}}, {{post?.publication_date | date: 'longDate'}}</h4>
+    <p>{{post?.comment | postParag}}</p>
+    <div class="btn-read" [routerLink]="['../posts', post.id]">READ MORE >></div>
+  </div>
+
+</div>
